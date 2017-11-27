@@ -6,7 +6,7 @@ def initialize(name)
   @name = name
 end
 
-def back_project(Project.new)
+def back_project(Project)
   backed_projects = []
   back_projects << Project.new
 end
