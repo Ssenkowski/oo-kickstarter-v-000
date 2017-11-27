@@ -7,9 +7,9 @@ def initialize(name)
   @backed_projects = []
 end
 
-def back_project(Project)
+def back_project(name)
   backed_projects = []
-  back_projects << Project.new
+  back_projects << name
 end
 
 end
